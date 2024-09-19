@@ -1,0 +1,671 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+body{
+    /* background-color: rgb(58, 177, 153); */
+    background-color: rgb(218, 255, 248);
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#vail{
+
+    background-color: rgb(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 23;
+    width: 100%;
+    height: 100%;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+#section{
+
+    background-color: rgb(0, 0, 0, 0.2);
+    position: fixed;
+    display: inline-grid;
+    overflow: hidden;
+    /* z-index: 23; */
+    margin-left: 1.2rem;
+    margin-top: 2.0rem;
+    border-radius: 0.5rem;
+    width: 90%;
+    height: 90%;
+}
+
+/* .text-space{
+    background-color: transparent;
+    height: 17rem;
+    width: 22rem;
+    backdrop-filter: blur(1px);
+} */
+
+.text-space{
+    color: #ffffff;
+    background-color: rgb(58, 177,153) ;
+    height: 12rem;
+    backdrop-filter: blur(px);
+    width: 100%;
+    border-top-left-radius:.5rem;
+    border-top-right-radius: .5rem;
+
+}
+
+.text{
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+}
+
+
+.text h2{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.text article{
+    font-size: 12px;
+    color: antiquewhite;
+    margin-top: 1rem;
+
+}
+
+#registerForm{
+    background-color:rgb(255,255,255);
+    height: 25rem;
+    border-bottom-left-radius:.5rem;
+    border-bottom-right-radius: .5rem;
+    width: 100%;
+    /* backdrop-filter: blur(2px); */
+    padding-left: 1.5rem;
+    /* overflow: hidden; */
+    padding-top: 1rem;
+}
+
+
+.social-media-icons{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    color: rgb(58, 177,153);
+}
+
+
+.social-media-icons i{
+    margin-left: 2.5rem;
+}
+
+#registerForm h2{
+    font-size: 20px;
+    color: rgb(58, 177,153);
+    margin-left: 3rem;
+    /* font-weight: lighter; */
+}
+
+
+.name input{
+    width: 15rem;
+    height: 1.5rem;
+    background-color: transparent;
+    border-bottom: solid 1px #ccc;
+    margin-top: 2rem;
+}
+
+
+.sect{
+    display: inline-flex;
+    padding-top: 2rem;
+    gap: 6rem;
+}
+
+.sect button{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: rgb(58, 177,153);
+    color: #ccc;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.sect p a{
+    color:rgb(58, 177,153);
+    font-size: 14px;
+    position: relative;
+    top: 0.5rem;
+}
+
+
+
+
+@media (min-width: 640px) {
+    #container{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+    
+    #vail{
+    
+        background-color: rgb(0, 0, 0, 0.2);
+        position: fixed;
+        z-index: 23;
+        width: 100%;
+        height: 100%;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    
+    #section{
+    
+        background-color: rgb(0, 0, 0, 0.2);
+        position: fixed;
+        display: inline-grid;
+        overflow: hidden;
+        /* z-index: 23; */
+        margin-left: 4rem;
+        margin-top: 7rem;
+        border-radius: 0.5rem;
+        width: 80%;
+        height: 80%;
+    }
+    
+    /* .text-space{
+        background-color: transparent;
+        height: 17rem;
+        width: 22rem;
+        backdrop-filter: blur(1px);
+    } */
+    
+    .text-space{
+        color: #ffffff;
+        background-color: rgb(58, 177,153) ;
+        height: 100%;
+        backdrop-filter: blur(px);
+        width: 45rem;
+        border-top-left-radius:.5rem;
+        border-top-right-radius: .5rem;
+    
+    }
+    
+    .text{
+        padding-top: 4rem;
+        padding-left: 3rem;
+    }
+    
+    
+    .text h2{
+        font-size: 30px;
+        color: aliceblue;
+    }
+    
+    .text article{
+        font-size: 16px;
+        color: antiquewhite;
+        margin-top: 1rem;
+    
+    }
+    
+    #registerForm{
+        background-color:rgb(255,255,255);
+        height: 100%;
+        overflow: scroll;
+        border-bottom-left-radius:.5rem;
+        border-bottom-right-radius: .5rem;
+        width: 45rem;
+        /* backdrop-filter: blur(2px); */
+        padding-left: 3rem;
+        /* overflow: hidden; */
+        padding-top: 3rem;
+    }
+    
+    
+    .social-media-icons{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        color: rgb(58, 177,153);
+    }
+    
+    
+    .social-media-icons i{
+        margin-left: 2.5rem;
+    }
+    
+    #registerForm h2{
+        font-size: 25px;
+        color: rgb(58, 177,153);
+        margin-left: 6rem;
+        /* font-weight: lighter; */
+    }
+    
+    
+    .name input{
+        width: 25rem;
+        height: 2rem;
+        background-color: transparent;
+        border-bottom: solid 1px #ccc;
+        margin-top: 2rem;
+    }
+    
+    
+    .sect{
+        display: inline-flex;
+        padding-top: 2rem;
+        gap: 10rem;
+    }
+    
+    .sect button{
+        width: 7rem;
+        height: 2.5rem;
+        background-color: rgb(58, 177,153);
+        color: #ccc;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    
+    .sect p a{
+        color:rgb(58, 177,153);
+        font-size: 14px;
+        position: relative;
+        top: 0.5rem;
+    }
+}
+@media (min-width: 768px) { 
+    #container{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+    
+    #vail{
+    
+        background-color: rgb(0, 0, 0, 0.2);
+        position: fixed;
+        z-index: 23;
+        width: 100%;
+        height: 100%;
+        /* justify-content: center;
+        align-items: center;*/
+    }
+    
+    #section{
+    
+        background-color: rgb(0, 0, 0, 0.2);
+        position: fixed;
+        display: inline-grid;
+        overflow: hidden;
+        /* z-index: 23; */
+        margin-left: 6rem;
+        margin-top: 4rem;
+        border-radius: 0.5rem;
+        width: 80%;
+        height: 80%;
+    }
+    
+    /* .text-space{
+        background-color: transparent;
+        height: 17rem;
+        width: 22rem;
+        backdrop-filter: blur(1px);
+    } */
+    
+    .text-space{
+        color: #ffffff;
+        background-color: rgb(58, 177,153) ;
+        height: 100%;
+        backdrop-filter: blur(px);
+        width: 45rem;
+        border-top-left-radius:.5rem;
+        border-top-right-radius: .5rem;
+    
+    }
+    
+    .text{
+        padding-top: 4rem;
+        padding-left: 4rem;
+    }
+    
+    
+    .text h2{
+        font-size: 30px;
+        color: aliceblue;
+    }
+    
+    .text article{
+        font-size: 16px;
+        color: antiquewhite;
+        margin-top: 1rem;
+    
+    }
+    
+    #registerForm{
+        background-color:rgb(255,255,255);
+        height: 100%;
+        border-bottom-left-radius:.5rem;
+        border-bottom-right-radius: .5rem;
+        width: 45rem;
+        /* backdrop-filter: blur(2px); */
+        padding-left: 4rem;
+        /* overflow: hidden; */
+        padding-top: 3rem;
+    }
+    
+    
+    .social-media-icons{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        color: rgb(58, 177,153);
+    }
+    
+    
+    .social-media-icons i{
+        margin-left: 2.5rem;
+    }
+    
+    #registerForm h2{
+        font-size: 25px;
+        color: rgb(58, 177,153);
+        margin-left: 6rem;
+        /* font-weight: lighter; */
+    }
+    
+    
+    .name input{
+        width: 25rem;
+        height: 2rem;
+        background-color: transparent;
+        border-bottom: solid 1px #ccc;
+        margin-top: 2rem;
+    }
+    
+    
+    .sect{
+        display: inline-flex;
+        padding-top: 2rem;
+        gap: 10rem;
+    }
+    
+    .sect button{
+        width: 7rem;
+        height: 2.5rem;
+        background-color: rgb(58, 177,153);
+        color: #ccc;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    
+    .sect p a{
+        color:rgb(58, 177,153);
+        font-size: 14px;
+        position: relative;
+        top: 0.5rem;
+    }
+}
+@media (min-width: 1024px) { 
+    #container{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+    
+    #vail{
+    
+        background-color: rgb(0, 0, 0, 0.2);
+        position: fixed;
+        z-index: 23;
+        width: 100%;
+        height: 100%;
+        /* justify-content: center;
+        align-items: center;*/
+    }
+    
+    #section{
+    
+        background-color: rgb(0, 0, 0, 0.2);
+        position: fixed;
+        display: inline-flex;
+        /* z-index: 23; */
+        margin-left: 6rem;
+        margin-top: 4rem;
+        border-radius: 0.5rem;
+        width: 80%;
+        height: 80%;
+    }
+    
+    /* .text-space{
+        background-color: transparent;
+        height: 17rem;
+        width: 22rem;
+        backdrop-filter: blur(1px);
+    } */
+    
+    .text-space{
+        color: #ffffff;
+        background-color: rgb(58, 177,153) ;
+        height: 100%;
+        backdrop-filter: blur(px);
+        width: 30rem;
+        border-top-left-radius:.5rem;
+        border-bottom-left-radius: .5rem;
+    
+    }
+    
+    .text{
+        padding-top: 10rem;
+        padding-left: 1rem;
+    }
+    
+    
+    .text h2{
+        font-size: 25px;
+        color: aliceblue;
+    }
+    
+    .text article{
+        font-size: 14px;
+        color: antiquewhite;
+        margin-top: 1rem;
+    
+    }
+    
+    #registerForm{
+        background-color:rgb(255,255,255);
+        height: 100%;
+        border-top-right-radius:.5rem;
+        border-bottom-right-radius: .5rem;
+        width: 45rem;
+        /* backdrop-filter: blur(2px); */
+        padding-left: 2.5rem;
+        /* overflow: hidden; */
+        padding-top: 2.5rem;
+    }
+    
+    
+    .social-media-icons{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        color: rgb(58, 177,153);
+    }
+    
+    
+    .social-media-icons i{
+        margin-left: 2.5rem;
+    }
+    
+    #registerForm h2{
+        font-size: 25px;
+        color: rgb(58, 177,153);
+        margin-left: 6rem;
+        /* font-weight: lighter; */
+    }
+    
+    
+    .name input{
+        width: 25rem;
+        height: 2rem;
+        background-color: transparent;
+        border-bottom: solid 1px #ccc;
+        margin-top: 2rem;
+    }
+    
+    
+    .sect{
+        display: inline-flex;
+        padding-top: 2rem;
+        gap: 10rem;
+    }
+    
+    .sect button{
+        width: 7rem;
+        height: 2.5rem;
+        background-color: rgb(58, 177,153);
+        color: #ccc;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    
+    .sect p a{
+        color:rgb(58, 177,153);
+        font-size: 14px;
+        position: relative;
+        top: 0.5rem;
+    }
+} 
+@media (min-width: 1280px) {
+    #container{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+    
+    #vail{
+    
+        background-color: rgb(0, 0, 0, 0.2);
+        position: fixed;
+        z-index: 23;
+        width: 100%;
+        height: 100%;
+        /* justify-content: center;
+        align-items: center;*/
+    }
+    
+    #section{
+    
+        background-color: rgb(0, 0, 0, 0.2);
+        position: fixed;
+        display: inline-flex;
+        /* z-index: 23; */
+        margin-left: 8rem;
+        margin-top: 4rem;
+        border-radius: 0.5rem;
+        width: 80%;
+        height: 80%;
+    }
+    
+    /* .text-space{
+        background-color: transparent;
+        height: 17rem;
+        width: 22rem;
+        backdrop-filter: blur(1px);
+    } */
+    
+    .text-space{
+        color: #ffffff;
+        background-color: rgb(58, 177,153) ;
+        height: 100%;
+        backdrop-filter: blur(px);
+        width: 30rem;
+        border-top-left-radius:.5rem;
+        border-bottom-left-radius: .5rem;
+    
+    }
+    
+    .text{
+        padding-top: 12rem;
+        padding-left: 2rem;
+    }
+    
+    
+    .text h2{
+        font-size: 30px;
+        color: aliceblue;
+    }
+    
+    .text article{
+        font-size: 16px;
+        color: antiquewhite;
+        margin-top: 1rem;
+    
+    }
+    
+    #registerForm{
+        background-color:rgb(255,255,255);
+        height: 100%;
+        border-top-right-radius:.5rem;
+        border-bottom-right-radius: .5rem;
+        width: 45rem;
+        backdrop-filter: blur(2px);
+        padding-left: 8rem;
+        /* overflow: hidden; */
+        padding-top: 5rem;
+    }
+    
+    
+    .social-media-icons{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        color: rgb(58, 177,153);
+    }
+    
+    
+    .social-media-icons i{
+        margin-left: 2.5rem;
+    }
+    
+    #registerForm h2{
+        font-size: 25px;
+        color: rgb(58, 177,153);
+        margin-left: 6rem;
+        /* font-weight: lighter; */
+    }
+    
+    
+    .name input{
+        width: 25rem;
+        height: 2rem;
+        background-color: transparent;
+        border-bottom: solid 1px #ccc;
+        margin-top: 2rem;
+    }
+    
+    
+    .sect{
+        display: inline-flex;
+        padding-top: 2rem;
+        gap: 10rem;
+    }
+    
+    .sect button{
+        width: 7rem;
+        height: 2.5rem;
+        background-color: rgb(58, 177,153);
+        color: #ccc;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    
+    .sect p a{
+        color:rgb(58, 177,153);
+        font-size: 14px;
+        position: relative;
+        top: 0.5rem;
+    }
+}
